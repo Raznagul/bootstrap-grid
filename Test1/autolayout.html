@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <script src="scripts/jquery.min.js"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+
+<div class="container-fluid">
+    <h1>Auto Layout Columns</h1>
+    <p>For equal width columns:  use  <code>.col-size</code> class on a specified number of col elements. Bootstrap automatically recognize how many columns there are</p>
+    <p>Two columns: 50% width on all screens, except for extra small (100% width on screens less than <strong>576px</strong> wide)</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm bg-success">1 of 2</div>
+            <div class="col-sm bg-warning">2 of 2</div>
+        </div>
+    </div>
+    <br>
+
+    <p>Four columns: 25% width on all screens </p>
+    <p>Five columns: 20% width on all screens </p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-success">1 of 4</div>
+            <div class="col bg-warning">2 of 4</div>
+            <div class="col bg-danger">3 of 4</div>
+            <div class="col bg-info">4 of 4</div>
+        </div>
+        <div class="row">
+            <div class="col bg-success">1 of 5</div>
+            <div class="col bg-warning">2 of 5</div>
+            <div class="col bg-danger">3 of 5</div>
+            <div class="col bg-info">4 of 5</div>
+            <div class="col bg-primary">5 of 5</div>
+        </div>
+    </div>
+</div>
+
+<br>
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="resize.html">Next</a>
+        </li>
+    </ul>
+</nav>
+
+
+</body>
+</html>
